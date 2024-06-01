@@ -1,0 +1,14 @@
+.navContainer {
+    background-color: #272C46;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+}
+
+
+@media (max-width:900px) {
+    .navCart2 {
+        display: none;
+    }
+}

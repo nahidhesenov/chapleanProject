@@ -1,0 +1,103 @@
+.homeContainer {
+    display: flex;
+    justify-content: space-between;
+    padding: 75px 0px;
+}
+
+.homeCard {
+    width: 60%;
+}
+
+.homeComp {
+    padding: 10px 0px;
+
+    h1 {
+        color: white;
+        font-family: sans-serif;
+        padding: 15px 0px;
+    }
+
+    p {
+        color: gainsboro;
+        font-family: sans-serif;
+        padding: 15px 0px;
+    }
+}
+
+.homeLink {
+    color: #1D9BF0;
+    text-decoration: none;
+}
+
+.homeLink:hover {
+    text-decoration: underline;
+}
+
+.homeMiniCartContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+
+}
+
+.homeMiniCart {
+    width: 25%;
+    border-radius: 30px;
+    background: rgba(39, 44, 70, 1);
+    padding: 30px;
+
+    h3 {
+        color: gainsboro;
+        font-family: sans-serif;
+        padding: 15px 0px;
+    }
+
+    p {
+        color: gainsboro;
+        font-family: sans-serif;
+    }
+}
+
+
+@media (max-width:1700px) {
+    .homeMiniCart {
+        width: 40%;
+    }
+}
+
+@media (max-width:1600px) {
+    .homeMiniCart {
+        width: 40%;
+    }
+}
+
+
+@media (max-width:1450px) {
+    .homeMiniCart {
+        width: 35%;
+    }
+}
+
+
+@media (max-width:950px) {
+    .homeMiniCart {
+        width: 80%;
+    }
+}
+
+
+@media (max-width:900px) {
+    .homeContainer {
+        justify-content: center;
+    }
+
+    .homeCard {
+        width: 80%;
+    }
+
+    .homeMiniCart {
+        width: 100%;
+    }
+}

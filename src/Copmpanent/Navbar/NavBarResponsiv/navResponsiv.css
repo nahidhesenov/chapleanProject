@@ -1,0 +1,14 @@
+.navResponsive {
+    cursor: pointer;
+    display: none;
+}
+
+@media (max-width:900px) {
+    .navResponsive {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+    }
+
+}
