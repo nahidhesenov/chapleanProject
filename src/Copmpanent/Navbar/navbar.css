@@ -1,7 +1,6 @@
 .navContainer {
-    background-color: #272C46;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     position: fixed;
     width: 100%;
 }

@@ -91,6 +91,7 @@
 @media (max-width:900px) {
     .homeContainer {
         justify-content: center;
+        padding: 110px 0px;
     }
 
     .homeCard {

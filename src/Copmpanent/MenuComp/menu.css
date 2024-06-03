@@ -1,7 +1,28 @@
 .menuContainer{
     display: block;
-    padding: 20px;
-    width: 15%;
+    width: 20%;
+    background: '#141526'
+}
+
+.hoverMenu{
+    font-family: sans-serif;
+    cursor: pointer;
+    color: gainsboro;
+}
+.hoverMenu:hover{
+    color: #1D9BF0;
+}
+
+@media (max-width:1400px) {
+    .menuContainer {
+        width: 25%;
+    }
+}
+
+@media (max-width:1200px) {
+    .menuContainer {
+        width: 40%;
+    }
 }
 
 @media (max-width:900px) {

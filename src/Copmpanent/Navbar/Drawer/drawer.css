@@ -1,0 +1,13 @@
+.drawerContainer {
+    display: none;
+}
+
+
+@media (max-width:900px) {
+    .drawerContainer {
+        padding: 20px;
+        background: rgba(39, 41, 56, 1);
+        display: flex;
+        justify-content: space-between;
+    }
+}
